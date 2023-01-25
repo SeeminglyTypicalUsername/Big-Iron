@@ -1259,3 +1259,26 @@
 	uses_overlays = FALSE
 	assignment = "neophyte identification papers"
 	access = list(ACCESS_COTC)
+
+/obj/item/card/id/church
+	name = "esoteric tattoo"
+	desc = "A tattoo marking the wearer as a member of the Church's clergy."
+	icon_state = "skin"
+	item_state = "skin"
+	assignment = "gang tattoo"
+	uses_overlays = FALSE
+
+/obj/item/card/id/outcasttattoo/Initialize()
+	. = ..()
+	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
+
+//rustwalker
+
+/obj/item/card/id/yuma/rustwalker
+	name = "identification papers"
+	desc = "Papers detailing general information personal information used for identification."
+	icon_state = "papers"
+	item_state = null
+	uses_overlays = FALSE
+	assignment = "identification papers"
+	access = list(ACCESS_DEN, ACCESS_ENGINE_EQUIP, ACCESS_ENGINE)

@@ -56,6 +56,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"ak" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/grenade/empgrenade,
+/obj/item/grenade/empgrenade,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "al" = (
 /turf/closed/wall/f13/store,
 /area/f13/building)
@@ -310,7 +316,11 @@
 "ba" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/kebab)
+"bb" = (
+/obj/machinery/light/small,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "bc" = (
 /obj/item/paper_bin{
 	pixel_x = -3;
@@ -1085,7 +1095,7 @@
 	pixel_x = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/building)
+/area/f13/kebab)
 "dl" = (
 /obj/structure/window/fulltile/wood,
 /obj/structure/barricade/wooden,
@@ -1123,7 +1133,7 @@
 /obj/structure/bed/wooden,
 /obj/item/bedsheet/black,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "dr" = (
 /obj/structure/chair/office/light{
 	dir = 1
@@ -1395,11 +1405,8 @@
 	},
 /area/f13/clinic)
 "ef" = (
-/obj/structure/obstacle/barbedwire{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
+/turf/closed/wall/rust,
+/area/f13/kebab)
 "eg" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/deck,
@@ -1710,6 +1717,13 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/pitrats)
+"fi" = (
+/obj/structure/table,
+/obj/structure/barricade/wooden,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/kebab)
 "fj" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -2330,7 +2344,7 @@
 "gQ" = (
 /obj/structure/chair/sofa/right,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "gR" = (
 /obj/structure/fireplace/preloaded,
 /obj/effect/turf_decal/shadow/floor{
@@ -2518,6 +2532,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"hw" = (
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/kebab)
 "hx" = (
 /obj/structure/rack{
 	name = "equipment rack"
@@ -2528,6 +2545,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"hy" = (
+/obj/structure/table/wood/junk,
+/obj/item/binoculars,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "hz" = (
 /obj/structure/table/wood/settler,
 /obj/item/folder,
@@ -2607,7 +2629,7 @@
 	pixel_x = -12
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/building)
+/area/f13/kebab)
 "hR" = (
 /obj/structure/simple_door/metal/store,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -2684,6 +2706,11 @@
 /obj/structure/chair/stool/bar,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"ib" = (
+/obj/machinery/chem_master,
+/obj/structure/table,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "ic" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -2920,7 +2947,7 @@
 /area/f13/raiders)
 "iF" = (
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "iG" = (
 /obj/machinery/light{
 	dir = 4
@@ -3305,7 +3332,7 @@
 	dir = 1
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "jJ" = (
 /obj/structure/chair/wood/normal{
 	dir = 8
@@ -3396,7 +3423,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "jW" = (
 /obj/structure/chair/wood/worn{
 	dir = 1
@@ -4171,6 +4198,10 @@
 	icon_state = "white"
 	},
 /area/f13/pitrats)
+"lV" = (
+/obj/structure/simple_door/metal/dirtystore,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "lW" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -4499,7 +4530,7 @@
 /obj/item/clothing/head/fedora,
 /obj/item/storage/briefcase,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "mR" = (
 /obj/structure/closet/cabinet{
 	anchored = 1;
@@ -4556,7 +4587,7 @@
 /area/f13/pitrats)
 "mW" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/kebab)
 "mY" = (
 /obj/structure/decoration/rag{
 	icon_state = "skin"
@@ -4599,6 +4630,13 @@
 /obj/item/storage/box/handcuffs,
 /obj/item/flashlight/seclite,
 /obj/item/flashlight/seclite,
+/obj/item/radio/headset/headset_merchant,
+/obj/item/radio/headset/headset_merchant,
+/obj/item/radio/headset/headset_merchant,
+/obj/item/radio/headset/headset_merchant,
+/obj/item/radio/headset/headset_merchant,
+/obj/item/radio/headset/headset_merchant,
+/obj/item/radio/headset/headset_merchant,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -4649,6 +4687,12 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/raiders)
+"nn" = (
+/obj/item/reagent_containers/pill/patch/jet,
+/obj/item/reagent_containers/pill/patch/jet,
+/obj/structure/rack,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "np" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress1"
@@ -4680,9 +4724,11 @@
 	},
 /area/f13/building)
 "nv" = (
-/obj/structure/obstacle/barbedwire,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/kebab)
 "nw" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -5145,6 +5191,9 @@
 	dir = 4
 	},
 /area/f13/building)
+"oJ" = (
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "oL" = (
 /obj/effect/landmark/start/f13/ncrsergeant,
 /obj/effect/decal/cleanable/dirt{
@@ -5357,7 +5406,7 @@
 "pl" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "pm" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
@@ -5851,7 +5900,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/kebab)
 "qw" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -5888,12 +5937,8 @@
 	},
 /area/f13/wasteland)
 "qD" = (
-/obj/structure/obstacle/barbedwire/end{
-	dir = 1;
-	pixel_x = 6
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
+/turf/closed/wall/f13/ruins,
+/area/f13/kebab)
 "qE" = (
 /obj/effect/overlay/junk/urinal{
 	pixel_y = 32
@@ -6443,6 +6488,15 @@
 	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
+"rY" = (
+/obj/structure/rack,
+/obj/item/grenade/empgrenade,
+/obj/item/grenade/empgrenade,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/pitrats)
 "sa" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/f13/oak{
@@ -6601,7 +6655,7 @@
 	pixel_x = 26
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
-/area/f13/building)
+/area/f13/kebab)
 "sw" = (
 /obj/structure/closet/crate/footlocker{
 	anchored = 1;
@@ -6677,6 +6731,12 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
+"sH" = (
+/obj/structure/chair/wood/worn{
+	dir = 4
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "sI" = (
 /obj/machinery/computer/arcade/amputation,
 /obj/effect/landmark/poster_spawner/ncr{
@@ -6951,6 +7011,13 @@
 /obj/item/card/id/yuma/cotc/neophyte,
 /obj/item/card/id/yuma/cotc/neophyte,
 /obj/item/card/id/yuma/cotc/neophyte,
+/obj/item/radio/headset/headset_church,
+/obj/item/radio/headset/headset_church,
+/obj/item/radio/headset/headset_church,
+/obj/item/radio/headset/headset_church,
+/obj/item/radio/headset/headset_church,
+/obj/item/radio/headset/headset_church,
+/obj/item/radio/headset/headset_church,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "ts" = (
@@ -7392,7 +7459,7 @@
 	},
 /obj/machinery/door/window/southleft,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
-/area/f13/building)
+/area/f13/kebab)
 "uC" = (
 /obj/machinery/light{
 	dir = 1
@@ -7607,6 +7674,14 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
+"vj" = (
+/obj/structure/table,
+/obj/structure/barricade/wooden,
+/obj/structure/barricade/wooden/planks,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/kebab)
 "vk" = (
 /obj/structure/railing{
 	dir = 1
@@ -8710,7 +8785,7 @@
 	},
 /obj/structure/chair/sofa,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "yx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -9462,11 +9537,8 @@
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/raiders)
 "AP" = (
-/obj/structure/obstacle/barbedwire/end{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
+/turf/closed/wall/r_wall/rust,
+/area/f13/kebab)
 "AQ" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	light_power = 0.8;
@@ -9677,6 +9749,13 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"Bv" = (
+/obj/machinery/light/small{
+	dir = 8;
+	pixel_y = 8
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "Bw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fluff/railing/corner{
@@ -9705,6 +9784,12 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
+"BA" = (
+/obj/structure/closet/crate/wooden,
+/obj/item/storage/pill_bottle,
+/obj/item/storage/pill_bottle,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "BC" = (
 /obj/structure/barricade/wooden,
 /turf/closed/wall/f13/wood,
@@ -9927,7 +10012,7 @@
 "Ci" = (
 /obj/machinery/microwave/stove,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/building)
+/area/f13/kebab)
 "Cj" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -10061,6 +10146,16 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/wasteland)
+"CC" = (
+/obj/structure/table,
+/obj/item/reagent_containers/glass/beaker/waterbottle/empty,
+/obj/item/reagent_containers/glass/beaker/waterbottle/empty,
+/obj/item/reagent_containers/food/drinks/bottle/absinthe/empty,
+/obj/structure/sign/poster/contraband/space_cola{
+	pixel_y = 32
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "CD" = (
 /obj/structure/barricade/wooden,
 /obj/structure/fence/wooden{
@@ -10261,6 +10356,12 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"De" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/ammo_box/magazine/ammobelt,
+/obj/item/ammo_box/magazine/ammobelt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "Df" = (
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
@@ -10360,11 +10461,11 @@
 /obj/item/reagent_containers/food/snacks/meat/slab,
 /obj/item/storage/fancy/egg_box,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/building)
+/area/f13/kebab)
 "Dv" = (
 /obj/structure/chair/sofa/left,
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "Dw" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -10454,7 +10555,7 @@
 /area/f13/legion)
 "DH" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/building)
+/area/f13/kebab)
 "DJ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -10831,7 +10932,7 @@
 /area/f13/caves)
 "EU" = (
 /turf/closed/wall/f13/wood/interior,
-/area/f13/building)
+/area/f13/kebab)
 "EV" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -10841,6 +10942,10 @@
 /area/f13/raiders)
 "EX" = (
 /obj/structure/closet/cabinet,
+/obj/item/ammo_box/a308,
+/obj/item/ammo_box/a308,
+/obj/item/ammo_box/a308,
+/obj/item/ammo_box/a308,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "EY" = (
@@ -11220,7 +11325,7 @@
 "Ga" = (
 /obj/effect/decal/fakelattice,
 /turf/closed/wall/r_wall/rust,
-/area/f13/building)
+/area/f13/kebab)
 "Gb" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -12232,9 +12337,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "Jc" = (
-/obj/structure/obstacle/barbedwire/end,
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
+/turf/closed/wall/f13/wood/house,
+/area/f13/kebab)
 "Jd" = (
 /turf/closed/wall/f13/store/constructed,
 /area/f13/ncr)
@@ -13079,11 +13183,8 @@
 	},
 /area/f13/building)
 "LD" = (
-/obj/structure/obstacle/barbedwire/end{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/oakbroken3,
+/area/f13/kebab)
 "LE" = (
 /obj/machinery/light{
 	dir = 4
@@ -13171,7 +13272,7 @@
 /obj/machinery/processor/chopping_block,
 /obj/item/kitchen/knife,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/building)
+/area/f13/kebab)
 "LP" = (
 /obj/structure/simple_door/house,
 /obj/structure/barricade/wooden,
@@ -13203,6 +13304,12 @@
 	name = "metal plating"
 	},
 /area/f13/merchant)
+"LT" = (
+/obj/structure/table,
+/obj/item/reagent_containers/syringe,
+/obj/item/reagent_containers/syringe,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "LU" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -13285,6 +13392,13 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"Mk" = (
+/obj/item/camera,
+/obj/structure/closet/crate/wooden,
+/turf/open/floor/wood/f13/oak{
+	icon_state = "oakfloor4-broken"
+	},
+/area/f13/kebab)
 "Ml" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
@@ -14651,7 +14765,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "QC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
@@ -15388,6 +15502,11 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/f13/ncr)
+"SI" = (
+/turf/open/floor/wood/f13/oak{
+	icon_state = "oakfloor3-broken"
+	},
+/area/f13/kebab)
 "SJ" = (
 /obj/structure/chair/sofa/right,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -15874,7 +15993,7 @@
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
-/area/f13/building)
+/area/f13/kebab)
 "Up" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -16307,6 +16426,12 @@
 /obj/structure/flora/grass/wasteland,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/caves)
+"Vz" = (
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "VB" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag,
@@ -16365,6 +16490,10 @@
 /obj/effect/turf_decal/stripes/white/box,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"VI" = (
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "VJ" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
@@ -16406,6 +16535,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
+"VS" = (
+/obj/structure/closet/crate/wooden,
+/obj/effect/spawner/lootdrop/druggie_pill,
+/turf/open/floor/wood/f13/oak,
+/area/f13/kebab)
 "VT" = (
 /obj/machinery/light{
 	dir = 1
@@ -16760,7 +16894,7 @@
 "WZ" = (
 /obj/structure/window/fulltile/house,
 /turf/open/floor/wood,
-/area/f13/building)
+/area/f13/kebab)
 "Xa" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood{
@@ -37626,13 +37760,13 @@ PL
 PL
 PL
 PL
-jN
-jN
-jN
-jN
-jN
-jN
-jN
+qD
+qD
+qD
+qD
+qD
+qD
+qD
 PL
 PL
 PL
@@ -37877,25 +38011,25 @@ PL
 PL
 PL
 PL
-jN
-jN
-jN
-jN
-jN
-jN
-rn
-rn
-rn
-rn
-rn
-rn
-rn
-jN
-jN
-jN
-jN
-jN
-jN
+qD
+qD
+qD
+qD
+qD
+qD
+AP
+AP
+AP
+AP
+AP
+AP
+AP
+qD
+qD
+qD
+qD
+qD
+qD
 PL
 PL
 PL
@@ -38130,29 +38264,29 @@ PL
 PL
 PL
 PL
-jN
-jN
-jN
-jN
-jN
-rn
-rn
-rn
-rn
-rn
-rn
+qD
+qD
+qD
+qD
+qD
+AP
+AP
+AP
+AP
+AP
+AP
 XE
 XE
 XE
 XE
 XE
-rn
-rn
-rn
-rn
-rn
-rn
-jN
+AP
+AP
+AP
+AP
+AP
+AP
+qD
 PL
 PL
 PL
@@ -38387,12 +38521,12 @@ PL
 PL
 PL
 PL
-jN
-rn
-rn
-rn
-rn
-rn
+qD
+AP
+AP
+AP
+AP
+AP
 XE
 XE
 XE
@@ -38404,12 +38538,12 @@ XE
 XE
 XE
 XE
-LD
+AP
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -38637,15 +38771,15 @@ PL
 PL
 PL
 PL
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-rn
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+AP
 XE
 XE
 XE
@@ -38661,12 +38795,12 @@ XE
 XE
 XE
 XE
-ef
+AP
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -38918,13 +39052,13 @@ XE
 XE
 XE
 XE
-ef
+AP
 Wx
 Wx
 Wx
-rn
-jN
-jN
+AP
+qD
+qD
 PL
 PL
 PL
@@ -39175,19 +39309,19 @@ PL
 PL
 PL
 XE
-ef
+AP
 Wx
 Wx
 Wx
-rn
-rn
-jN
-jN
-jN
-jN
-jN
-jN
-jN
+AP
+AP
+qD
+qD
+qD
+qD
+qD
+qD
+qD
 PL
 PL
 PL
@@ -39432,19 +39566,19 @@ PL
 PL
 PL
 XE
-ef
+AP
 Wx
 Wx
 Wx
-FO
+hw
 Ga
-rn
-rn
-rn
-rn
-rn
-rn
-jN
+AP
+AP
+AP
+AP
+AP
+AP
+qD
 PL
 PL
 PL
@@ -39688,7 +39822,7 @@ PL
 PL
 PL
 XE
-LD
+AP
 AP
 Wx
 Wx
@@ -39700,8 +39834,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -39944,7 +40078,7 @@ PL
 PL
 PL
 PL
-LD
+AP
 AP
 Wx
 Wx
@@ -39957,8 +40091,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -40200,7 +40334,7 @@ PL
 PL
 XE
 XE
-LD
+AP
 AP
 Wx
 Wx
@@ -40214,8 +40348,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -40457,7 +40591,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 Wx
 Wx
 Wx
@@ -40471,8 +40605,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -40714,7 +40848,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 Wx
 Wx
 Wx
@@ -40728,8 +40862,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -40971,7 +41105,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 Wx
 Wx
 Wx
@@ -40985,8 +41119,8 @@ PL
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -41227,7 +41361,7 @@ XE
 XE
 XE
 XE
-LD
+AP
 AP
 Wx
 Wx
@@ -41242,8 +41376,8 @@ PL
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -41499,11 +41633,11 @@ PL
 Wx
 Wx
 Wx
-rn
-jN
-jN
-jN
-jN
+AP
+qD
+qD
+qD
+qD
 PL
 PL
 PL
@@ -41740,27 +41874,27 @@ XE
 XE
 XE
 XE
-Jc
+AP
+AP
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+PL
+PL
+PL
+Wx
+Wx
+Wx
+AP
+AP
+AP
+AP
 qD
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-PL
-PL
-PL
-Wx
-Wx
-Wx
-rn
-rn
-rn
-rn
-jN
 PL
 PL
 PL
@@ -41997,7 +42131,7 @@ XE
 XE
 XE
 XE
-LD
+AP
 PL
 Wx
 Wx
@@ -42016,8 +42150,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -42254,7 +42388,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 Wx
@@ -42273,8 +42407,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -42530,8 +42664,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -42765,30 +42899,30 @@ PL
 PL
 PL
 XE
-Jc
-nv
-nv
+AP
+AP
+AP
+AP
+PL
+PL
+Wx
+Wx
+Wx
+Wx
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+AP
 qD
-PL
-PL
-Wx
-Wx
-Wx
-Wx
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-rn
-jN
 PL
 PL
 PL
@@ -43022,7 +43156,7 @@ XE
 XE
 XE
 XE
-LD
+AP
 PL
 PL
 PL
@@ -43044,8 +43178,8 @@ Wx
 Wx
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -43279,7 +43413,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -43301,8 +43435,8 @@ Wx
 Wx
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -43536,7 +43670,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -43558,8 +43692,8 @@ Wx
 Wx
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -43793,7 +43927,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -43815,8 +43949,8 @@ Wx
 Wx
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -44050,7 +44184,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -44072,8 +44206,8 @@ Wx
 Wx
 Wx
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -44307,7 +44441,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -44329,8 +44463,8 @@ Wx
 Wx
 Wx
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -44564,7 +44698,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -44586,8 +44720,8 @@ Wx
 Wx
 Wx
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -44821,7 +44955,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -44843,8 +44977,8 @@ Wx
 Wx
 Wx
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -45078,7 +45212,7 @@ XE
 XE
 XE
 XE
-ef
+AP
 PL
 PL
 PL
@@ -45100,8 +45234,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -45335,30 +45469,30 @@ XE
 XE
 XE
 XE
+AP
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 ef
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-rn
-jN
+ef
+ef
+AP
+qD
 PL
 PL
 PL
@@ -45592,30 +45726,30 @@ XE
 XE
 XE
 XE
+AP
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 ef
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-rn
-jN
+LT
+ib
+AP
+qD
 PL
 PL
 PL
@@ -45865,14 +45999,14 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
+ef
+ef
+ef
+ef
+CC
+Vz
+AP
+qD
 PL
 PL
 PL
@@ -46102,34 +46236,34 @@ gE
 gE
 mZ
 mZ
-Jc
-nv
-nv
-nv
+AP
+AP
+AP
+AP
+AP
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+ef
+nn
+Bv
+LD
+oJ
+bb
+AP
 qD
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
 PL
 PL
 PL
@@ -46351,13 +46485,13 @@ PL
 PL
 PL
 PL
-jN
-rn
-rn
-rn
-rn
-rn
-rn
+qD
+AP
+AP
+AP
+AP
+AP
+AP
 PL
 PL
 PL
@@ -46379,14 +46513,14 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
+ef
+oJ
+oJ
+BA
+VS
+oJ
+AP
+qD
 PL
 PL
 PL
@@ -46608,8 +46742,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 XE
 XE
@@ -46636,14 +46770,14 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
+ef
+lV
+ef
+ef
+ef
+lV
+AP
+qD
 PL
 PL
 PL
@@ -46865,8 +46999,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 XE
 XE
@@ -46893,14 +47027,14 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
+ef
+oJ
+oJ
+Bv
+VI
+oJ
+AP
+qD
 PL
 PL
 PL
@@ -47122,8 +47256,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 XE
 XE
@@ -47150,14 +47284,14 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
+fi
+SI
+oJ
+nv
+oJ
+oJ
+AP
+qD
 PL
 PL
 PL
@@ -47379,8 +47513,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 XE
 XE
@@ -47407,14 +47541,14 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
+fi
+sH
+hy
+oJ
+oJ
+Mk
+AP
+qD
 PL
 PL
 PL
@@ -47636,8 +47770,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 XE
 XE
@@ -47664,14 +47798,14 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-rn
-jN
+ef
+vj
+fi
+ef
+ef
+ef
+AP
+qD
 PL
 PL
 PL
@@ -47893,8 +48027,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 XE
 XE
@@ -47927,8 +48061,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -48150,8 +48284,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 PL
 PL
@@ -48184,8 +48318,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -48407,8 +48541,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 PL
 PL
@@ -48441,8 +48575,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -48664,8 +48798,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 XE
 PL
 PL
@@ -48698,8 +48832,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -48921,13 +49055,13 @@ PL
 PL
 PL
 PL
-jN
-rn
-rn
-rn
-rn
-rn
-rn
+qD
+AP
+AP
+AP
+AP
+AP
+AP
 PL
 PL
 PL
@@ -48956,7 +49090,7 @@ zv
 zv
 zv
 zv
-jN
+qD
 PL
 PL
 PL
@@ -49178,9 +49312,9 @@ PL
 PL
 PL
 PL
-jN
-rn
-rn
+qD
+AP
+AP
 PL
 PL
 PL
@@ -49435,8 +49569,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 PL
 PL
 PL
@@ -49692,7 +49826,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 nh
 nh
@@ -49949,7 +50083,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 ui
 ui
@@ -50206,7 +50340,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 qE
 Xr
@@ -50463,7 +50597,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 qE
 Xr
@@ -50720,7 +50854,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 hq
 Xr
@@ -50977,7 +51111,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 nh
 Kq
@@ -51015,7 +51149,7 @@ zv
 In
 In
 cU
-sJ
+De
 EX
 In
 sJ
@@ -51234,7 +51368,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 hF
 um
@@ -51491,7 +51625,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 JU
 um
@@ -51530,7 +51664,7 @@ zt
 In
 Nq
 tr
-sJ
+ak
 wp
 sJ
 zv
@@ -51748,7 +51882,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 um
 um
@@ -52005,7 +52139,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 wC
 um
@@ -52262,7 +52396,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 tv
 um
@@ -52519,7 +52653,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 MJ
 um
@@ -52776,7 +52910,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 MJ
 um
@@ -53033,7 +53167,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 MJ
 um
@@ -53290,11 +53424,11 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 zF
 um
-xQ
+rY
 um
 xQ
 nh
@@ -53547,7 +53681,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 zF
 um
@@ -53583,8 +53717,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -53804,7 +53938,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 GP
 uV
@@ -53840,8 +53974,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 EQ
 EQ
@@ -54061,7 +54195,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 nh
 nh
@@ -54097,8 +54231,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 EQ
 EQ
@@ -54318,7 +54452,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 um
 um
@@ -54354,8 +54488,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 EQ
 EQ
@@ -54575,7 +54709,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 um
 um
@@ -54611,8 +54745,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 EQ
 EQ
@@ -54832,8 +54966,8 @@ PL
 PL
 PL
 PL
-jN
-jN
+qD
+qD
 nh
 um
 ja
@@ -54868,8 +55002,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 EQ
 EQ
@@ -55090,7 +55224,7 @@ PL
 PL
 PL
 PL
-jN
+qD
 nh
 nh
 fh
@@ -55125,8 +55259,8 @@ Wx
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 EQ
 EQ
@@ -55347,9 +55481,9 @@ PL
 PL
 PL
 PL
-jN
-jN
-jN
+qD
+qD
+qD
 nh
 nh
 nh
@@ -55382,8 +55516,8 @@ PL
 PL
 PL
 PL
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -55606,23 +55740,23 @@ PL
 PL
 PL
 PL
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-rn
-rn
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+AP
+AP
 Wx
 Wx
 Wx
@@ -55638,10 +55772,10 @@ PL
 PL
 PL
 PL
-rn
-rn
-jN
-jN
+AP
+AP
+qD
+qD
 PL
 PL
 PL
@@ -55878,8 +56012,8 @@ PL
 PL
 PL
 PL
-jN
-rn
+qD
+AP
 Wx
 Wx
 Wx
@@ -55896,9 +56030,9 @@ Wx
 Wx
 Wx
 Wx
-rn
-rn
-jN
+AP
+AP
+qD
 PL
 PL
 PL
@@ -56135,9 +56269,9 @@ PL
 PL
 PL
 PL
-jN
-rn
-rn
+qD
+AP
+AP
 Wx
 Wx
 Wx
@@ -56154,8 +56288,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -56392,9 +56526,9 @@ Wx
 Wx
 PL
 PL
-jN
-jN
-rn
+qD
+qD
+AP
 Wx
 Wx
 Wx
@@ -56411,8 +56545,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -56650,8 +56784,8 @@ Wx
 Wx
 PL
 PL
-jN
-rn
+qD
+AP
 Wx
 PL
 PL
@@ -56668,8 +56802,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -56907,9 +57041,9 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-rn
+qD
+AP
+AP
 PL
 PL
 PL
@@ -56925,8 +57059,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -57165,8 +57299,8 @@ Wx
 Wx
 PL
 PL
-jN
-rn
+qD
+AP
 PL
 PL
 PL
@@ -57182,8 +57316,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -57422,8 +57556,8 @@ Wx
 Wx
 PL
 PL
-jN
-rn
+qD
+AP
 PL
 PL
 PL
@@ -57439,8 +57573,8 @@ Wx
 Wx
 Wx
 Wx
-rn
-jN
+AP
+qD
 PL
 PL
 PL
@@ -57679,12 +57813,12 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
-zB
+qD
+AP
+Jc
+Jc
 WZ
-zB
+Jc
 PL
 PL
 PL
@@ -57694,10 +57828,10 @@ Wx
 Wx
 Wx
 Wx
-rn
-rn
-rn
-jN
+AP
+AP
+AP
+qD
 PL
 PL
 PL
@@ -57936,25 +58070,25 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
+qD
+AP
+Jc
 mQ
 QB
-zB
+Jc
 WZ
 WZ
-zB
+Jc
 Wx
 Wx
 Wx
 Wx
 Wx
-rn
-rn
-jN
-jN
-jN
+AP
+AP
+qD
+qD
+qD
 PL
 PL
 PL
@@ -58193,23 +58327,23 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
+qD
+AP
+Jc
 jI
 iF
 pl
 jV
 jV
-zB
-zB
-zB
+Jc
+Jc
+Jc
 Wx
-rn
-rn
-rn
-jN
-jN
+AP
+AP
+AP
+qD
+qD
 PL
 PL
 PL
@@ -58450,9 +58584,9 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
+qD
+AP
+Jc
 dq
 iF
 EU
@@ -58460,12 +58594,12 @@ gQ
 iF
 hO
 LO
-zB
-rn
-rn
-jN
-jN
-jN
+Jc
+AP
+AP
+qD
+qD
+qD
 PL
 PL
 PL
@@ -58707,9 +58841,9 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
+qD
+AP
+Jc
 EU
 EU
 EU
@@ -58717,10 +58851,10 @@ yw
 iF
 DH
 Ci
-zB
-rn
-jN
-jN
+Jc
+AP
+qD
+qD
 PL
 PL
 PL
@@ -58964,9 +59098,9 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
+qD
+AP
+Jc
 uB
 mW
 EU
@@ -58974,9 +59108,9 @@ Dv
 iF
 DH
 dk
-zB
-rn
-jN
+Jc
+AP
+qD
 PL
 PL
 PL
@@ -59221,9 +59355,9 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
+qD
+AP
+Jc
 qv
 sv
 ba
@@ -59231,9 +59365,9 @@ Uo
 Uo
 DH
 Du
-zB
-rn
-jN
+Jc
+AP
+qD
 PL
 PL
 PL
@@ -59478,19 +59612,19 @@ Wx
 Wx
 PL
 PL
-jN
-rn
-zB
-zB
-zB
-zB
-Py
-Py
+qD
+AP
+Jc
+Jc
+Jc
+Jc
+nv
+nv
 DH
-zB
-zB
-rn
-jN
+Jc
+Jc
+AP
+qD
 PL
 PL
 PL
@@ -59735,19 +59869,19 @@ Wx
 Wx
 PL
 PL
-jN
-jN
-rn
-rn
-rn
-zB
-zB
-zB
-zB
-zB
-rn
-jN
-jN
+qD
+qD
+AP
+AP
+AP
+Jc
+Jc
+Jc
+Jc
+Jc
+AP
+qD
+qD
 PL
 PL
 PL
@@ -59993,17 +60127,17 @@ Wx
 PL
 PL
 PL
-jN
-jN
-jN
-rn
-rn
-rn
-rn
-rn
-rn
-rn
-jN
+qD
+qD
+qD
+AP
+AP
+AP
+AP
+AP
+AP
+AP
+qD
 PL
 PL
 PL
@@ -60252,15 +60386,15 @@ PL
 PL
 PL
 PL
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
-jN
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
+qD
 PL
 PL
 PL
