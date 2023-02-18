@@ -94,7 +94,7 @@
 
 		var/trans = target.reagents.trans_to(src, amount_per_transfer_from_this, log = TRUE)
 		to_chat(user, "<span class='notice'>You fill [src] with [trans] units of the contents of [target].</span>")
-
+/*
 /obj/item/reagent_containers/food/drinks/attackby(obj/item/I, mob/user, params)
 	var/hotness = I.get_temperature()
 	if(hotness && reagents)
@@ -109,7 +109,7 @@
 			to_chat(user,"<span class='warning'>empty [src] first!</span>")
 
 	..()
-
+*/
 /obj/item/reagent_containers/food/drinks/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
 	. = ..()
 	if(!.) //if the bottle wasn't caught
